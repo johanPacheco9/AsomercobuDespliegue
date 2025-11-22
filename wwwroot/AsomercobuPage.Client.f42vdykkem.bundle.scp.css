@@ -1,0 +1,672 @@
+/* /Components/LoginButton.razor.rz.scp.css */
+.navbar-nav .nav-link[b-ex28t9ddrs] {
+    color: #fff;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid transparent;
+}
+
+    .navbar-nav .nav-link:hover[b-ex28t9ddrs],
+    .navbar-nav .nav-link.active[b-ex28t9ddrs] {
+        color: #ffe600;
+        border-bottom: 2px solid #ffe600;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+    }
+/* /Layout/CustomLayout.razor.rz.scp.css */
+/* /Pages/CerrarSesion.razor.rz.scp.css */
+.navbar-nav .nav-link[b-34usj9man0] {
+    color: #fff;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid transparent;
+}
+
+    .navbar-nav .nav-link:hover[b-34usj9man0],
+    .navbar-nav .nav-link.active[b-34usj9man0] {
+        color: #ffe600;
+        border-bottom: 2px solid #ffe600;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+    }
+/* /Pages/ContactComponent.razor.rz.scp.css */
+
+.fontfooter[b-qxdis1evwu] {
+    color: white;
+    font-family: 'SamsungOne', Arial, sans-serif; /* Fuente personalizada */
+}
+
+
+/* /Pages/Contacto.razor.rz.scp.css */
+.contacto-plazas[b-11mirlko6o] {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+
+
+.titulo-contacto[b-11mirlko6o] {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.subtitulo[b-11mirlko6o] {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.formulario-card[b-11mirlko6o] {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: white;
+    border-top: 4px solid #28a745;
+}
+
+.info-card[b-11mirlko6o] {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #28a745;
+    color: white;
+}
+
+.campesino-form-group label[b-11mirlko6o] {
+    color: #495057;
+    font-weight: 500;
+}
+
+.btn-enviar[b-11mirlko6o] {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s;
+}
+
+    .btn-enviar:hover[b-11mirlko6o] {
+        background-color: #218838;
+        transform: translateY(-2px);
+    }
+
+.contacto-info p[b-11mirlko6o] {
+    margin-bottom: 1rem;
+}
+
+.contacto-info i[b-11mirlko6o] {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.btn-social[b-11mirlko6o] {
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .btn-social:hover[b-11mirlko6o] {
+        background-color: white;
+        color: #28a745;
+    }
+
+/* Para los iconos de Font Awesome */
+@@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+/* /Pages/Home.razor.rz.scp.css */
+.contenedorPhoto[b-p1tmreqjfa] {
+    background-position: center;
+    height: 300px;
+    width: 100%; /* O el alto que necesites */
+    background-size: cover;
+
+
+    display: flex; /* Activa flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    color: white; /* Texto blanco si la imagen es oscura */
+    font-size: 2rem; /* Tamaño de texto visible */
+    font-weight: bold;
+}
+
+.jus[b-p1tmreqjfa] {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+    font-size: 1.1rem; /* Opcional: cambia el tamaño de letra */
+}
+.imgtext[b-p1tmreqjfa] {
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .contenedorPhoto[b-p1tmreqjfa] {
+        height: 300px;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+
+
+
+@keyframes fadeSlideIn-b-p1tmreqjfa {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animated-list li[b-p1tmreqjfa] {
+    opacity: 0;
+    animation: fadeSlideIn-b-p1tmreqjfa 0.6s ease forwards;
+}
+
+    .animated-list li:nth-child(1)[b-p1tmreqjfa] {
+        animation-delay: 0.1s;
+    }
+
+    .animated-list li:nth-child(2)[b-p1tmreqjfa] {
+        animation-delay: 0.2s;
+    }
+
+    .animated-list li:nth-child(3)[b-p1tmreqjfa] {
+        animation-delay: 0.3s;
+    }
+
+    .animated-list li:nth-child(4)[b-p1tmreqjfa] {
+        animation-delay: 0.4s;
+    }
+
+    .animated-list li:nth-child(5)[b-p1tmreqjfa] {
+        animation-delay: 0.5s;
+    }
+
+    .animated-list li:nth-child(6)[b-p1tmreqjfa] {
+        animation-delay: 0.6s;
+    }
+
+
+
+
+.fontfooter[b-p1tmreqjfa] {
+    color: white;
+    font-family: 'SamsungOne', Arial, sans-serif; /* Fuente personalizada */
+    
+}
+
+
+
+.principios-card[b-p1tmreqjfa] {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-top: 4px solid #28a745;
+}
+
+.mission-card[b-p1tmreqjfa] {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9f5ff 100%);
+    border-left: 4px solid #007bff;
+    transition: transform 0.3s;
+}
+
+.vision-card[b-p1tmreqjfa] {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8f8f0 100%);
+    border-left: 4px solid #28a745;
+    transition: transform 0.3s;
+}
+
+    .mission-card:hover[b-p1tmreqjfa], .vision-card:hover[b-p1tmreqjfa] {
+        transform: translateY(-5px);
+    }
+
+.icon-container[b-p1tmreqjfa] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.value-section[b-p1tmreqjfa] {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.value-list[b-p1tmreqjfa] {
+    list-style: none;
+    padding: 0;
+}
+
+    .value-list li[b-p1tmreqjfa] {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+.value-icon[b-p1tmreqjfa] {
+    width: 50px;
+    height: 50px;
+    background-color: #f1f8ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.bounce[b-p1tmreqjfa] {
+    animation: bounce 2s infinite;
+}
+
+@@keyframes bounce {
+    0%[b-p1tmreqjfa], 20%[b-p1tmreqjfa], 50%[b-p1tmreqjfa], 80%[b-p1tmreqjfa], 100%[b-p1tmreqjfa] {
+        transform: translateY(0);
+    }
+
+    40%[b-p1tmreqjfa] {
+        transform: translateY(-10px);
+    }
+
+    60%[b-p1tmreqjfa] {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+.carousel-caption[b-p1tmreqjfa] {
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .carousel-container[b-p1tmreqjfa] {
+        height: 50vh;
+        min-height: 300px;
+    }
+
+    .carousel-caption[b-p1tmreqjfa] {
+        padding: 1rem;
+    }
+}
+
+.hero[b-p1tmreqjfa] {
+    position: relative;
+    height: 85vh;
+    background: url('https://images.pexels.com/photos/13833980/pexels-photo-13833980.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-overlay[b-p1tmreqjfa] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero-content h1[b-p1tmreqjfa] {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-content p[b-p1tmreqjfa] {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-btn[b-p1tmreqjfa] {
+    background: #ffc107;
+    color: #000;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+    .hero-btn:hover[b-p1tmreqjfa] {
+        background: #e0a800;
+    }
+
+.hero-socials[b-p1tmreqjfa] {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+    .hero-socials a[b-p1tmreqjfa] {
+        color: #fff;
+        font-size: 1.5rem;
+        transition: color 0.3s;
+    }
+
+        .hero-socials a:hover[b-p1tmreqjfa] {
+            color: #ffc107;
+        }
+
+@media (max-width: 768px) {
+    .hero[b-p1tmreqjfa] {
+        height: 60vh;
+    }
+
+    .hero-content h1[b-p1tmreqjfa] {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p[b-p1tmreqjfa] {
+        font-size: 1rem;
+    }
+}
+
+/* Importar Font Awesome para los iconos */
+@@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+/* /Pages/InformeEsalP.razor.rz.scp.css */
+.upload-label[b-wkm11thz7q] {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+    .upload-label:hover[b-wkm11thz7q] {
+        background-color: #f0f0f0;
+    }
+
+    .upload-label img[b-wkm11thz7q] {
+        height: 20px;
+        width: 20px;
+        object-fit: contain;
+    }
+
+.btn-custom[b-wkm11thz7q] {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+    .btn-custom:hover[b-wkm11thz7q] {
+        background-color: #357ABD;
+    }
+
+.custom-img[b-wkm11thz7q] {
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.file-upload[b-wkm11thz7q] {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-label[b-wkm11thz7q] {
+    background-color: #3366cc;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .file-label:hover[b-wkm11thz7q] {
+        background-color: #254a99;
+    }
+
+.file-input[b-wkm11thz7q] {
+    display: none; /* oculta el input real */
+}
+
+/* /Pages/Login.razor.rz.scp.css */
+@keyframes fadeIn-b-0jgmkvkzi7 {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-fadeIn[b-0jgmkvkzi7] {
+    animation: fadeIn-b-0jgmkvkzi7 0.3s ease-out forwards;
+}
+/* /Pages/MisionVision.razor.rz.scp.css */
+/* Contenedor general */
+.row.justify-content-center[b-n2oh2yaqr1] {
+    gap: 2rem;
+}
+
+/* Cards */
+.mission-card[b-n2oh2yaqr1], .vision-card[b-n2oh2yaqr1] {
+    border-radius: 16px;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+    .mission-card:hover[b-n2oh2yaqr1], .vision-card:hover[b-n2oh2yaqr1] {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    }
+
+/* Títulos */
+.card-title[b-n2oh2yaqr1] {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+/* Iconos */
+.icon-container[b-n2oh2yaqr1] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Texto */
+.card-text[b-n2oh2yaqr1] {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Botones de edición */
+.btn-warning[b-n2oh2yaqr1] {
+    font-weight: bold;
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+    .btn-warning:hover[b-n2oh2yaqr1] {
+        background-color: #f7b500;
+        border-color: #f7b500;
+        transform: scale(1.05);
+    }
+
+.btn-success[b-n2oh2yaqr1], .btn-danger[b-n2oh2yaqr1], .btn-secondary[b-n2oh2yaqr1] {
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+/* Textarea */
+textarea.form-control[b-n2oh2yaqr1] {
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+    textarea.form-control:focus[b-n2oh2yaqr1] {
+        border-color: #007bff;
+        box-shadow: 0px 0px 6px rgba(0,123,255,0.4);
+    }
+
+/* Contenedor del botón editar */
+.edit-button[b-n2oh2yaqr1] {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* Asegurar que el card sea relativo */
+.mission-card[b-n2oh2yaqr1], .vision-card[b-n2oh2yaqr1] {
+    position: relative;
+}
+/* /Pages/Nosotros.razor.rz.scp.css */
+.hero-section[b-2kh6jped7e] {
+    background: linear-gradient(135deg, #0d6efd, #198754);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Timeline */
+.timeline-item[b-2kh6jped7e] {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+    .timeline-item[b-2kh6jped7e]::before {
+        content: "●";
+        color: #0d6efd;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.3rem;
+    }
+
+    .timeline-item .year[b-2kh6jped7e] {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+/* Misión y Visión */
+.card[b-2kh6jped7e] {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+    .card:hover[b-2kh6jped7e] {
+        transform: translateY(-5px);
+    }
+
+.icon-container[b-2kh6jped7e] {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.mission-card .icon-container[b-2kh6jped7e] {
+    background: linear-gradient(135deg, #0d6efd, #6ea8fe);
+}
+
+.vision-card .icon-container[b-2kh6jped7e] {
+    background: linear-gradient(135deg, #198754, #71dd8a);
+}
+
+/* Valores */
+.valores-section[b-2kh6jped7e] {
+    background: #f8f9fa;
+}
+
+.hover-card[b-2kh6jped7e] {
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+    .hover-card:hover[b-2kh6jped7e] {
+        background: white;
+        transform: translateY(-5px);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    }
+
+/* Equipo */
+.team-card img[b-2kh6jped7e] {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+/* Impacto */
+.impact-section[b-2kh6jped7e] {
+    background: linear-gradient(135deg, #198754, #0d6efd);
+}
+
+.text-justify[b-2kh6jped7e] {
+    text-align: justify !important;
+}
+/* /Pages/PromotionComponent.razor.rz.scp.css */
+
+.promotionCard[b-nel9a1mw33] {
+    background-color: #edf7e7; /* Fondo claro para las tarjetas de promoción */ /* Borde gris claro */
+    padding: 1rem; /* Espaciado interno */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra sutil */
+    transition: transform 0.2s ease-in-out; /* Transición suave al hacer hover */
+    color: #3367ca;
+    font-weight: bold;
+    font-family: 'SamsungOne', Arial, sans-serif; /* Fuente personalizada */
+    font-size: 1.5rem;
+    text-align: justify;
+}
