@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AsomercobuPage.Client",
   "resources": {
-    "hash": "sha256-MynwzhFmMJA+D3iprdwkMjaK6mfDnBFLe+zUdw5jpS4=",
+    "hash": "sha256-53bJCX2ZaTU1sJLJAoOi+VTPZHfjLTS7hk/ztimxQ/c=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "AsomercobuPage.Client.wasm": "sha256-LoCNoJuxC1WbtjuKZhdZJkS3eXYyvd08eytKWB6LZwA=",
+      "AsomercobuPage.Client.wasm": "sha256-gbxqw27CQHQZVhQg+Ta07lQ0aj6tOUZT+xijNtAtK1k=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-Q4snZkpmfq0rPcy0H5rxqrnFAIDaG6romEGD+h59YDM=",
       "Microsoft.AspNetCore.Components.Authorization.wasm": "sha256-zAFA8GgZxIqvkifGhA7iL+X8vK1er8UHMCDuCMQ+irM=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-ezRihCd7vlhn2266A3ciMAlE2FpBSPkJMKKKDV6DLgc=",
